@@ -1,2 +1,2 @@
 # webdevsandbox
-Here is where I do learn, explore, and figure out new topics concerning web development.
+Here is where I learn, explore, and figure out new topics concerning web development.
