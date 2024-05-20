@@ -17,14 +17,20 @@
         display:flex;
         gap: 20px;
         justify-content: center;
+        height: 100vh;
         align-items: center;
       }
 
       .pricing-plan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
         background-color: lightgrey;
         text-align: center;
         width: 400px;
         height: 300px;
+        padding: 20px;
       }
       
       .plan-title{
@@ -39,7 +45,13 @@
 
       li {
         list-style-type: none;
+        margin-bottom: 10px;
       }
+
+      .plan-button{
+        align-self: center;
+      }
+
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
